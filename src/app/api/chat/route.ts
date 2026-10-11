@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { GoogleGenAI } from "@google/genai";
 
-export const runtime = "nodejs";
 
 const apiKey = process.env.GEMINI_API_KEY;
 
